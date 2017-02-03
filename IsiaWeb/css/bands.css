@@ -1,0 +1,69 @@
+
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+
+body {
+    background-image: url("tlonowa.jpg");
+    width: 1200px;
+    margin: 20px auto;
+}
+
+audio {
+    display: table;
+	margin: 5 auto;
+}
+
+h1 {
+    color: #FDD700;
+    font-family: Rock Salt;
+}
+
+li {
+    padding: 10px;
+    font-size: 16pt;
+}
+
+#header {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 30pt;
+    height: 80px;
+    font-family: Rock Salt;
+}
+
+#menu {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+}
+
+#content {
+    color: lightgray;
+    padding: 50px;
+    text-align: justify;
+}
+
+.cd {
+    /*border: 1px solid white;*/
+    overflow: hidden;
+}
+
+.cd_image {
+    float: left;
+    padding: 10px;
+}
+
+.cd_info {
+    padding: 10px;
+    overflow: hidden;
+}
+
+#footer {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+

@@ -1,0 +1,67 @@
+
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 10pt;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background-color: black;
+}
+
+ol  a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+ol > li {
+    float: left;
+    background-color: #FDD700;
+    width: 250px;
+    margin-left: 1px;
+    height: 1em;
+}
+
+/* pierwszy eleleny nie potrzebuje właściwości margin-left: 1px */
+ol > li:first-child {
+    margin-left: 0;
+}
+
+ol > li:hover {
+    background-color: #EEE;
+}
+
+ol > li:hover > ul {
+    display: block;
+}
+
+ol > li:hover > a {
+    color:#09C;
+}
+
+ol > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+ol > li > ul > li {
+    background-color: #EEE;
+}
+
+ol > li > ul > li:hover {
+    background-color: #DDD;
+}
+
+ol > li > ul > li:hover a {
+    color: #09C;
+}
+
+ol > li > ul > li > a {
+    border-top: 1px solid #FFF;
+}
